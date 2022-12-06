@@ -3,6 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 // import homeLogo from "../../Assets/home-main.svg";
 import Particle from "./Particle";
 import Description from "./description";
+// import ModelViewer from "./modelviewer";
 
 function Home() {
   return (
@@ -18,7 +19,7 @@ function Home() {
                 🥭
                 </span>
               </p>
-
+              {/* <ModelViewer scale="40" modelPath={"/Documents/proj1_kitchen3.glb"} /> */}
               {/* <p className="heading-name">
                 I'm a
                 <strong className="main-name"> bean</strong>!

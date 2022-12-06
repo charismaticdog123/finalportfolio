@@ -53,25 +53,71 @@ html {
   
   /* Track */
   ::-webkit-scrollbar-track {
-    background: #2d1950;
+    background: transparent;
   }
   
   /* Handle */
   ::-webkit-scrollbar-thumb {
-    background: rgba(178, 121, 216, 0.959);
+    background: #FFBF00;
     border-radius: 12px;
   }
   
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
-    background: rgba(222, 130, 235, 0.911);
+    /* background: rgba(222, 130, 235, 0.911); */
+    background: #E49B0F;
     border-radius: 12px;
   }
   
   /* --------- */
   /* Navbar Section  */
   /* --------- */
-  .sticky {
+
+  .nav {
+    background-color: transparent;
+    /* color: black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 2rem;
+    padding: 0 1rem;
+    position:fixed;
+  }
+  
+  .site-title {
+    /* font-size: 2rem; */
+    font-size: 2.1em;
+    justify-content: left;
+  }
+  
+  .nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: right;
+
+    gap: 1rem;
+
+  }
+  
+  .nav a {
+    color: #E49B0F;
+    text-decoration: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: .25rem;
+  }
+  
+  .nav li.active {
+    color: #E49B0F;
+  }
+  
+  .nav li:hover {
+    color: #E49B0F;
+  }
+  /* .sticky {
     background-color: #1b1a2ea9 !important;
     transition: all 0.3s ease-out 0s !important;
     box-shadow: 0px 10px 10px 0px rgba(9, 5, 29, 0.171) !important;
@@ -200,7 +246,7 @@ html {
   .navbar-nav .nav-item a:hover::after {
     width: 100%;
   }
-  
+   */
   /* --------- */
   /* Home section */
   /* --------- */
@@ -460,7 +506,8 @@ html {
   .project-card-view {
     box-shadow: 0 4px 5px 3px #E49B0F !important;
     border-radius: 25px;
-    color: white !important;
+    padding: 25px;
+    color: black !important;
     background-color: transparent !important;
     opacity: 0.9 !important;
     transition: all 0.5s ease 0s !important;
