@@ -89,6 +89,19 @@ html {
     font-size: 2.1em;
     justify-content: left;
   }
+
+  a:link{
+  text-decoration: none!important;
+  color: black !important;
+}
+a {
+  color:black;
+}
+
+a:hover{
+  text-decoration: none!important;
+  color: #FFBF00 !important;
+}
   
   .nav ul {
     padding: 0;

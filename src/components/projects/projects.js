@@ -20,14 +20,15 @@ function Projects() {
 
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
-            <ProjectCard
-              // imgPath={chatify}
+            <ProjectCard 
               isBlog={false}
               title="Goodreads Redesign"
               description="Responsive redesign of the Goodreads user profile page."
-              ghLink="https://github.com/soumyajit4419/Chatify"
+              link="https://github.com/soumyajit4419/Chatify"
               demoLink="https://chatify-49.web.app/"
+              
             />
+
           </Col>
 
           <Col md={4} className="project-card">
