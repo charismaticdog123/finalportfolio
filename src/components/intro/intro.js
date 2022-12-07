@@ -19,11 +19,6 @@ function Home() {
                 🥭
                 </span>
               </p>
-              {/* <ModelViewer scale="40" modelPath={"/Documents/proj1_kitchen3.glb"} /> */}
-              {/* <p className="heading-name">
-                I'm a
-                <strong className="main-name"> bean</strong>!
-              </p> */}
 
               <p style={{  fontSize: ".6em", padding: 50, textAlign: "left" }}>
                 <Description />
@@ -41,7 +36,6 @@ function Home() {
           </Row>
         </Container>
       </Container>
-      {/* <Home2 /> */}
     </section>
   );
 }

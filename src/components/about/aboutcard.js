@@ -7,7 +7,7 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify", color: "black" }}>
-          I’m <span className="yellow"><b>CharismaticDog123</b></span>, a designer interested in weaving <span className="yellow"><b>storytelling</b></span>, <span className="yellow"><b>design</b></span>, and <span className="yellow"><b>engineering</b></span> into meaningful interactions and communication. I make things because I like hearing stories.
+          I’m <span className="dark-yellow"><b>CharismaticDog123</b></span>, a designer interested in weaving <span className="dark-yellow"><b>storytelling</b></span>, <span className="dark-yellow"><b>design</b></span>, and <span className="dark-yellow"><b>engineering</b></span> into meaningful interactions and communication. I make things because I like hearing stories.
           <br></br>
           <br></br>
 
@@ -19,15 +19,7 @@ When I’m not on my computer, I can be found gardening, cooking eggs, or dancin
           <br></br>
 Feel free to reach out to talk design, agrotech, writing, anything!, through my email redacted.
             
-            {/* I'm a <span className="yellow"><b>designer</b> </span>
-            and <span className="yellow"> <b>storyteller</b></span> from Los Angeles.
-            <br />
-            <br />Currently, Design Researcher @IBM
-            <br />Previously, SWE @HBO
-            <br />
-            <br />
-            When I'm not studying <b>Computer Science</b> and <b>Economics</b> at <b>Brown University</b>, I'm probably in the garden with my mango trees. */}
-          </p>
+                  </p>
         </blockquote>
 
          
