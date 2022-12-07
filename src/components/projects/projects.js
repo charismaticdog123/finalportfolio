@@ -24,7 +24,7 @@ function Projects() {
               isBlog={false}
               title="Goodreads Redesign"
               description="Responsive redesign of the Goodreads user profile page."
-              link="https://github.com/soumyajit4419/Chatify"
+              link="/goodreads"
               demoLink="https://chatify-49.web.app/"
               
             />
@@ -37,8 +37,7 @@ function Projects() {
               isBlog={false}
               title="Slingshot"
               description="Iterative high fidelity prototype of Slingshot, a startup that automates medical bill reduction."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              link="/slingshot"
             />
           </Col>
 
@@ -48,8 +47,7 @@ function Projects() {
               isBlog={false}
               title="Tip Flip"
               description="Exploring personas of the tip flip screen in coffee shops."
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              link="/tipflip"        
             />
           </Col>
 
@@ -59,8 +57,7 @@ function Projects() {
               isBlog={false}
               title="Low Poly Designs"
               description="Isometric low-poly characters and scenes created on Blender."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              link="/blender"
             />
           </Col>
 
@@ -70,19 +67,16 @@ function Projects() {
               isBlog={false}
               title="IBM"
               description="User research for onboarding for Enterprise Performance Management product. [cs]"
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
-            />
-          </Col>
-
+              link="/fillerpage"
+              />
+              </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               // imgPath={emotion}
               isBlog={false}
               title="HBO"
               description="Engineered curated content pages, “Spotlight Pages” for content discovery team. [cs]"
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              link="/fillerpage"
             />
           </Col>
         </Row>

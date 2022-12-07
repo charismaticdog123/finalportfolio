@@ -8,9 +8,9 @@ export default function NavigationBar() {
         CharismaticDog123
       </Link>
       <ul>
-        <CustomLink to="/intro">Home</CustomLink>
-        <CustomLink to="/projects">Projects</CustomLink>
-        <CustomLink to="/about">About</CustomLink>
+        <Link to="/intro">Home</Link>
+        <Link to="/projects">Projects</Link>
+        <Link to="/about">About</Link>
 
       </ul>
     </nav>

@@ -1,10 +1,10 @@
 
 
 import React from "react";
-import Intro from "./components/intro/intro";
 import About from "./components/about/about";
 import Projects from "./components/projects/projects";
 import Home from "./components/intro/intro";
+import LandingPage from "./components/landingpage";
 
 
 import "./style.css";
@@ -22,8 +22,11 @@ import NavigationBar from "./components/navi/navigationbar";
 import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+
+// Project Pages
 import GoodReads from "./components/projects/pages/goodreads";
 import TipFlip from "./components/projects/pages/tipflip";
+import FillerPage from "./components/projects/pages/fillerpage";
 
 // function App() {
 
@@ -97,22 +100,28 @@ import TipFlip from "./components/projects/pages/tipflip";
 function App() {
 
   return (
-    <GoodReads></GoodReads>
+    // <GoodReads></GoodReads>
     // <TipFlip></TipFlip>
 
-    // <div>
-    //   <NavigationBar />
-    //     <div className="container">
-    //      <Routes>
-    //        <Route path="/" element={<Home />} />
-    //        <Route path="/projects" element={<Projects />} />
-    //        <Route path="/about" element={<About />} /> 
-    //      </Routes>
-    //      <Intro></Intro>
-    //   <Projects></Projects>
-    //   <About></About> 
-    //    </div> 
-    // </div>
+    <div>
+      <NavigationBar />
+        <div className="container">
+         <Routes>
+         <Route path="/" element={<LandingPage />} />
+           <Route path="/intro" element={<Home />} />
+           <Route path="/projects" element={<Projects />} />
+           <Route path="/about" element={<About />} /> 
+           <Route path="/goodreads" element={<GoodReads />} /> 
+           <Route path="/tipflip" element={<TipFlip />} /> 
+           <Route path="/fillerpage" element={<FillerPage />} /> 
+           
+
+         </Routes>
+         {/* <Intro></Intro> */}
+      {/* <Projects></Projects> */}
+      {/* <About></About>  */}
+       </div> 
+    </div>
 
     
     );

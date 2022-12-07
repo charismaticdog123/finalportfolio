@@ -1,9 +1,12 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
+import {Link, Route} from "react-router-dom";
+import GoodReads from "./pages/goodreads";
 
 function ProjectCards(props) {
   return (
+
     <Card className="project-card-view">
       {/* <Card.Img variant="top" src={props.imgPath} alt="card-img" /> */}
       <a class="card-block stretched-link " href={props.link}>
@@ -34,6 +37,7 @@ function ProjectCards(props) {
       </Card.Body>
       </a>
     </Card>
+    // </Link>
   );
 }
 export default ProjectCards;
