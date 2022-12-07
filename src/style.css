@@ -92,10 +92,53 @@ html {
 
   a:link{
   text-decoration: none!important;
-  color: black !important;
+  /* color: black !important; */
 }
 a {
   color:black;
+}
+
+h1 {
+  color: #FFBF00 !important;
+  font-size: 87px !important;
+  padding-top:3rem;
+  text-align: center;
+}
+
+h2 {
+  color:#487453 !important;
+  font-size: 45px !important;
+  padding: 2rem;
+  text-align:center;
+}
+
+h3 {
+  color:#88AF49 !important;
+  font-size: 35px !important;
+  padding-top: 2rem;
+  
+  text-align:center;
+}
+.subtitle {
+  text-align: center;
+}
+.project-p {
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  padding-left: 30rem;
+  padding-top: 2rem;
+  padding-right: 30rem;
+  font-size: 20px;
+
+}
+
+li {
+  margin-left: 31rem;
+  margin-right: 31rem;
+  font-size: 20px;
 }
 
 a:hover{

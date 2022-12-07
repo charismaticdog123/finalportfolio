@@ -22,6 +22,8 @@ import NavigationBar from "./components/navi/navigationbar";
 import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import GoodReads from "./components/projects/pages/goodreads";
+import TipFlip from "./components/projects/pages/tipflip";
 
 // function App() {
 
@@ -95,20 +97,22 @@ import "bootstrap/dist/css/bootstrap.min.css";
 function App() {
 
   return (
-    <div>
+    <GoodReads></GoodReads>
+    // <TipFlip></TipFlip>
 
-      <NavigationBar />
-        <div className="container">
-         <Routes>
-           <Route path="/" element={<Home />} />
-           <Route path="projects" element={<Projects />} />
-           <Route path="about" element={<About />} /> 
-         </Routes>
-         <Intro></Intro>
-      <Projects></Projects>
-      <About></About>
-       </div> 
-    </div>
+    // <div>
+    //   <NavigationBar />
+    //     <div className="container">
+    //      <Routes>
+    //        <Route path="/" element={<Home />} />
+    //        <Route path="/projects" element={<Projects />} />
+    //        <Route path="/about" element={<About />} /> 
+    //      </Routes>
+    //      <Intro></Intro>
+    //   <Projects></Projects>
+    //   <About></About> 
+    //    </div> 
+    // </div>
 
     
     );
