@@ -12,7 +12,7 @@ function Home() {
         <Particle />
         <Container className="home-content">
           <Row>
-            <Col md={7} className="home-header">
+            <Col md={7} className="home-header font-link ">
               <p style={{ fontSize: "2.1em", paddingBottom: 15 }} className="heading">
                 Hallo, I'm a <strong className="main-name"> bean</strong>!{" "}
                 <span className="wave" role="img" aria-labelledby="wave">

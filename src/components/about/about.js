@@ -6,7 +6,7 @@ import AboutCard from "./aboutcard.js";
 
 function About() {
   return (
-    <Container fluid className="about-section">
+    <Container fluid className="about-section font-link">
       <Container>
         <Row style={{ justifyContent: "center", padding: "10px" }}>
           <Col

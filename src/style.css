@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+
+.font-link {
+  font-family: 'Playfair Display', serif;
+}
+
+
 html {
     --section-background-color: transparent;
   
@@ -100,6 +108,8 @@ html {
 }
 a {
   color:black;
+  font-family: 'Playfair Display', serif !important;
+
 }
 
 h1 {
@@ -107,9 +117,13 @@ h1 {
   font-size: 87px !important;
   padding-top:3rem;
   text-align: center;
+  font-family: 'Playfair Display', serif !important;
 }
 
 h2 {
+  font-family: 'Playfair Display', serif !important;
+
+
   color:#487453 !important;
   font-size: 45px !important;
   padding: 2rem;
@@ -117,6 +131,8 @@ h2 {
 }
 
 h3 {
+  font-family: 'Playfair Display', serif !important;
+
   color:#88AF49 !important;
   font-size: 35px !important;
   padding-top: 2rem;
@@ -125,8 +141,11 @@ h3 {
 }
 .subtitle {
   text-align: center;
+  font-family: 'Playfair Display', serif !important;
+
 }
 .project-p {
+  font-family: 'Playfair Display', serif !important;
   display: block;
   margin-top: 1em;
   margin-bottom: 1em;
@@ -143,11 +162,15 @@ li {
   margin-left: 31rem;
   margin-right: 31rem;
   font-size: 20px;
+  font-family: 'Playfair Display', serif !important;
+
 }
 
 a:hover{
   text-decoration: none!important;
   color: #E49B0F !important;
+  font-family: 'Playfair Display', serif !important;
+
 }
   
   .nav ul {
@@ -162,6 +185,8 @@ a:hover{
   }
   
   .nav a {
+  font-family: 'Playfair Display', serif !important;
+
     color: #E49B0F;
     text-decoration: none;
     height: 100%;
@@ -176,6 +201,8 @@ a:hover{
   
   .nav li:hover {
     color: #E49B0F;
+  font-family: 'Playfair Display', serif !important;
+
   }
   /* .sticky {
     background-color: #1b1a2ea9 !important;

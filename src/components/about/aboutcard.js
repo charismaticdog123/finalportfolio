@@ -5,7 +5,7 @@ function AboutCard() {
   return (
     <Card className="quote-card-view">
       <Card.Body>
-        <blockquote className="blockquote mb-0">
+        <blockquote className="blockquote mb-0 font-link">
           <p style={{ textAlign: "justify", color: "black" }}>
           I’m <span className="dark-yellow"><b>CharismaticDog123</b></span>, a designer interested in weaving <span className="dark-yellow"><b>storytelling</b></span>, <span className="dark-yellow"><b>design</b></span>, and <span className="dark-yellow"><b>engineering</b></span> into meaningful interactions and communication. I make things because I like hearing stories.
           <br></br>

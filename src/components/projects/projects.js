@@ -24,9 +24,7 @@ function Projects() {
               isBlog={false}
               title="Goodreads Redesign"
               description="Responsive redesign of the Goodreads user profile page."
-              link="/goodreads"
-              demoLink="https://chatify-49.web.app/"
-              
+              link="/goodreads"              
             />
 
           </Col>
