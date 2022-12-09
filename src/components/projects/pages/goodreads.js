@@ -3,9 +3,13 @@ import React from "react";
 function GoodReads() {
   return (
     <div>
-    <h1>Goodreads Redesign</h1>
-   // TODO: place image!!!!!
-   <h3>Judging a book by it's cover...</h3>
+    <h1><b><strong>Goodreads Redesign</strong></b></h1>
+    <h3>Judging a book by it's cover...</h3>
+
+    <div class="center-image">
+    <img src="images/goodreads/gr_mockup.png" alt="mock up of wireframes on laptop" width="70%" height="70%"></img>
+    </div>
+
    <p class="project-p">As someone who loves reading, but hates adding books to an endless "To Read" notes in my Notes app, I find Goodreads to be a useful and fun way to keep track of and explore new books.​</p>
    <p class="project-p">Goodreads is a site frequented by more than a million book lovers, where users that sign up can create profiles to review, rate, and save books into "bookshelves." Users can join topic groups, follow authors, add friends, and socialize through commenting on each other's reviews and posts. </p>
     <p class="project-p">But the current profile page is not conducive to sharing, exploring, or socializing. Outside of the usability issues discussed below, the profile pages look bland, cumbersome, and outdated. If we were to judge the current profile pages from its "cover," we probably wouldn't want to read more!</p>
@@ -37,7 +41,10 @@ function GoodReads() {
      <li>Inconsistent components and branding</li>
     </ul>
     
-    //TO DO PLACE IMAGE!
+  
+    <div class="center-image">
+    <img src="images/goodreads/issues.jpeg" alt="annotated issues on screenshot" width="10%" height="10%"></img>
+    </div>
     
 
     <h2>ii. Visual Redesign</h2>
@@ -45,8 +52,31 @@ function GoodReads() {
     <p class="project-p">In the low-fidelity prototype, I focused on grouping related information together in cards to solve the issue of hierarchy. </p>
     <p class="project-p">To reduce the amount of hyperlinks and increase user control and freedom, I worked off of the mental model of shelves and created "bookshelf tiles" for users. ​​​​​​​This helped differentiate the different links as well as create more memorability and usability by previewing some of the books in a user's bookshelf. </p>
     <p class="project-p">Finally, I created a section for recent activity where user's can view a user's comments, reviews, ratings, and bookmarks and see who the user is friends with.</p>
-    // TO DO ADD LOW FIDELITY img
-    // TO DO ADD STYLE GUIDE
+
+    <div class="container">
+  <div class="row">
+    <div class="col-lg">
+    <div class="center-image">
+    <img src="images/goodreads/lowfid.png" alt="low fidelity wireframes" width="70%" height="70%"></img>
+    </div>
+    </div>
+    <div class="col-lg">
+    <div class="center-image">
+    <img src="images/goodreads/lowfid2.png" alt="low fidelity wireframes" width="70%" height="70%"></img>
+    </div>
+    </div>
+    <div class="col-lg">
+    <div class="center-image">
+    <img src="images/goodreads/lowfid3.png" alt="low fidelity wireframes" width="70%" height="70%"></img>
+    </div>
+    </div>
+  </div>
+</div>
+
+
+    <div class="center-image">
+    <img src="images/goodreads/styleguide.jpeg" alt="style guide" width="70%" height="70%"></img>
+    </div>
 
     <h3>Style Guide</h3>
     <p class="project-p">In terms of the style guide, I tried to make design decisions that I thought would increase memorability and hierarchy.  </p>
@@ -59,10 +89,38 @@ function GoodReads() {
 
     <h3>High Fidelity</h3>
     <p class="project-p">Below is a high-fidelity Figma mockup for the desktop view (annotations across different views below). Information and links were grouped into cards and tiles that worked off of a mental model of a bookshelf. The number of links were reduced in place of buttons, dropdowns, and clickable visuals.</p>
-    // TO DO ADD HI FI 
+    <div class="center-image">
+    <img src="images/goodreads/hifid.png" alt="low fidelity wireframes" width="70%" height="70%"></img>
+    </div>
 
     <h3>Developer's Annotations for Desktop, Tablet, & Mobile</h3>
-// to do add images
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="images/goodreads/hf1.png" alt="First slide" />
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="images/goodreads/hf2.png" alt="Second slide" />
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="images/goodreads/hf3.png" alt="Third slide" />
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
 
     <h2>iii. Responsive Redesign</h2>
     <p class="project-p">In the final part of this redesign, I used HTML and CSS to develop a responsive redesign of the profile page, linked <a href="https://charismaticdog123.github.io/goodreadsredesign/">here</a>!</p>

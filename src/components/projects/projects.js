@@ -51,9 +51,9 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              // imgPath={leaf}
+              imgPath="/images/kitchen.png"
               isBlog={false}
-              title="Low Poly Designs"
+              title="Soft World"
               description="Isometric low-poly characters and scenes created on Blender."
               link="/blender"
             />

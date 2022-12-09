@@ -1,5 +1,4 @@
 import React from "react";
-// import './styling/about.css';
 import { Container, Row, Col } from "react-bootstrap";
 import AboutCard from "./aboutcard.js";
 
