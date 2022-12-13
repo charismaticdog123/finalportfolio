@@ -28,9 +28,13 @@ function Home() {
        {/* <p  className="heading2">
            Hallo,
          </p>     */}
+         
          <p style={{ paddingTop:"10rem"}} className="heading">
+          
           Hallo, <br></br>
-        I'm <a className="main-name"> Agnes</a>!{" "} <span className="wave" role="img" aria-labelledby="wave">
+          
+
+        I'm <a className="main-name"> filler</a>!{" "} <span className="wave" role="img" aria-labelledby="wave">
       <img class="site-logo" src="images/mango.png" alt="mango" width="100%"    ></img>
                
                </span>
@@ -52,7 +56,6 @@ function Home() {
           occasionally, cs and econ student @BrownUniversity
           <br></br>
           always, a storyteller and mango enthusiast @LosAngeles
-                {/* <Description /> */}
               </p>
             </Col>
    

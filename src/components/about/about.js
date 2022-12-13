@@ -17,12 +17,15 @@ function About() {
             }}
           >
 
-            <p style={{ fontSize: "2.1em", paddingBottom: "20px", color: "black"}}>
-              Thanks for visiting! {" "}
-              <span className="wave" role="img" aria-labelledby="wave">
+            {/* <h2 style={{ fontSize: "2.1em", paddingBottom: "20px", color: "black"}}> */}
+            <h1 className="project-heading">
+          <strong className="yellow" ><center>
+          Thanks for visiting! {" "}
+          <span className="wave" role="img" aria-labelledby="wave">
               👋
-                </span>
-            </p>
+                </span></center></strong>
+              
+            </h1>
             <AboutCard></AboutCard>
           </Col>
           <Col

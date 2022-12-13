@@ -6,15 +6,12 @@ function Description() {
     <Typewriter 
       options={{
         strings: [
-          "currently, designer @IBM",
-          "previously, swe @HBO",
-          "occasionally, computer science and economics student @BrownUniversity",
-          "always, a storyteller and mango enthusiast @LosAngeles"
+          "Hallo!"
         ],
         autoStart: true,
-        delay: 1,
+        delay: 50,
         loop: true,
-        deleteSpeed: 1,
+        deleteSpeed: 50,
       }}
     />
   );

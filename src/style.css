@@ -140,9 +140,10 @@ h3 {
   color:#88AF49 !important;
   font-size: 35px !important;
   padding-top: 2rem;
-  
   text-align:center;
 }
+
+
 h4 {
   font-family: 'Playfair Display', serif !important;
   color:#487453 !important;
@@ -481,8 +482,8 @@ a:hover{
   .home-about-section {
     position: relative;
     color: black !important;
-    padding-bottom: 70px !important;
-    padding-top: 70px !important;
+    /* padding-bottom: 70px !important; */
+    /* padding-top: 70px !important; */
   }
   
   .home-about-description {
@@ -683,10 +684,11 @@ a:hover{
     box-shadow: none !important;
   }
   .project-heading {
-    color: white !important;
+    color: transparent !important;
     font-size: 2.3em !important;
     font-weight: 500 !important;
-    padding-top: 10px !important;
+    padding-top: 100px !important;
+    margin-left: -300px;
   }
   
   /* --------- */
@@ -695,7 +697,7 @@ a:hover{
   
   .about-section {
     position: relative !important;
-    padding-top: 150px !important;
+    /* padding-top: 20px !important; */
     padding-bottom: 30px !important;
     background-image: var(--section-background-color) !important;
     color: white !important;

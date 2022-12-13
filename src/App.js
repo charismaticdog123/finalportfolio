@@ -31,11 +31,10 @@ import Blender from "./components/projects/pages/blender";
 import Slingshot from "./components/projects/pages/slingshot";
 
 import { Canvas } from "@react-three/fiber";
-import { OrbitControls } from "@react-three/drei";
-import { Model } from "./Proj1_kitchen2";
-
-
-
+import ModelViewer from "./blendermods/modelviewer";
+import { Model } from "./blendermods/Tree2";
+import { Environment, OrbitControls } from "@react-three/drei";
+import { Suspense } from "react";
 function App() {
 
   return (
@@ -47,17 +46,27 @@ function App() {
 
 
     <div>
+
+
+{/* <Canvas camera={{ fov: 18 }}>
+        <ambientLight intensity={1.25} />
+        <Suspense fallback={null}>
+        <Model />
+        </Suspense>
+        <Environment preset="sunset" />
+        <OrbitControls />
+      </Canvas> */}
      
       <NavigationBar />
-      {/* <div id="intro"><Home /></div>
-      <div id="projects"><Projects /></div>
-      <div id="about"><About /></div> */}
+    
         <div className="container">
          <Routes>
          <Route path="/" element={<LandingPage />} />
-           {/* <Route path="/intro" element={<Home />} />
+         <Route path="/home" element={<LandingPage />} />
+
+           <Route path="/intro" element={<Home />} />
            <Route path="/projects" element={<Projects />} />
-           <Route path="/about" element={<About />} />  */}
+           <Route path="/about" element={<About />} /> 
            <Route path="/goodreads" element={<GoodReads />} /> 
            <Route path="/tipflip" element={<TipFlip />} /> 
            <Route path="/fillerpage" element={<FillerPage />} /> 
@@ -68,13 +77,8 @@ function App() {
            
 
          </Routes>
-         {/* <Intro></Intro> */}
-      {/* <Projects></Projects> */}
-      {/* <About></About>  */}
-
-      
        </div> 
-      
+    
     </div>
     
 

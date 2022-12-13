@@ -14,11 +14,36 @@ function Projects() {
     <Container fluid className="project-section">
       <Particle />
       <Container>
-        <h1 className="project-heading">
+      <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={2} className="project-card">
+             <div class="center-image">
+    <img src="images/tree.png" alt="tree image" width="100%" height="70%"></img>
+
+</div>
+
+
+            </Col>
+            
+            <Col md={3} className="project-card">
+            <h1 className="project-heading">
           <strong className="yellow" ><center>Projects</center></strong>
         </h1>
+            </Col>
+            </Row>
+   
+
+       
 
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath="/images/kitchen.png"
+              isBlog={false}
+              title="Soft World"
+              description="Isometric low-poly characters and scenes created on Blender."
+              link="/blender"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard 
               isBlog={false}
@@ -49,15 +74,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath="/images/kitchen.png"
-              isBlog={false}
-              title="Soft World"
-              description="Isometric low-poly characters and scenes created on Blender."
-              link="/blender"
-            />
-          </Col>
+     
 
           <Col md={4} className="project-card">
             <ProjectCard
