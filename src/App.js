@@ -64,18 +64,18 @@ function App() {
          <Route path="/finalportfolio" element={<LandingPage />} />
 
          <Route path="/" element={<LandingPage />} />
-         <Route path="/home" element={<LandingPage />} />
+         <Route path="/finalportfolio/home" element={<LandingPage />} />
 
-           <Route path="/intro" element={<Home />} />
-           <Route path="/work" element={<Projects />} />
-           <Route path="/play" element={<Play />} />
+           <Route path="/finalportfolio/intro" element={<Home />} />
+           <Route path="/finalportfolio/work" element={<Projects />} />
+           <Route path="/finalportfolio/play" element={<Play />} />
 
-           <Route path="/about" element={<About />} /> 
-           <Route path="/goodreads" element={<GoodReads />} /> 
-           <Route path="/tipflip" element={<TipFlip />} /> 
-           <Route path="/fillerpage" element={<FillerPage />} /> 
-           <Route path="/blender" element={<Blender />} /> 
-           <Route path="/slingshot" element={<Slingshot />} /> 
+           <Route path="/finalportfolio/about" element={<About />} /> 
+           <Route path="/finalportfolio/goodreads" element={<GoodReads />} /> 
+           <Route path="/finalportfolio/tipflip" element={<TipFlip />} /> 
+           <Route path="/finalportfolio/fillerpage" element={<FillerPage />} /> 
+           <Route path="/finalportfolio/blender" element={<Blender />} /> 
+           <Route path="/finalportfolio/slingshot" element={<Slingshot />} /> 
 
 
            
