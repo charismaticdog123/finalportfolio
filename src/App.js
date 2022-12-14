@@ -58,39 +58,38 @@ function App() {
       </Canvas> */}
      
       <NavigationBar />
-      <BrowserRouter>
         <div className="container">
          <Routes>
          <Route path="/finalportfolio" element={<LandingPage />} />
 
          <Route path="/" element={<LandingPage />} />
-         <Route path="/finalportfolio/home" element={<LandingPage />} />
+         {/* <Route path="/finalportfolio/home" element={<LandingPage />} /> */}
          <Route path="/home" element={<LandingPage />} />
 
-           <Route path="/finalportfolio/intro" element={<Home />} />
+           {/* <Route path="/finalportfolio/intro" element={<Home />} /> */}
            <Route path="/intro" element={<Home />} />
-           <Route path="/finalportfolio/work" element={<Projects />} />
+           {/* <Route path="/finalportfolio/work" element={<Projects />} /> */}
            <Route path="/work" element={<Projects />} />
 
-           <Route path="/finalportfolio/play" element={<Play />} />
+           {/* <Route path="/finalportfolio/play" element={<Play />} /> */}
            <Route path="/play" element={<Play />} />
 
-           <Route path="/finalportfolio/about" element={<About />} /> 
+           {/* <Route path="/finalportfolio/about" element={<About />} />  */}
            <Route path="/about" element={<About />} /> 
 
-           <Route path="/finalportfolio/goodreads" element={<GoodReads />} />
+           {/* <Route path="/finalportfolio/goodreads" element={<GoodReads />} /> */}
            <Route path="/goodreads" element={<GoodReads />} /> 
 
-           <Route path="/finalportfolio/tipflip" element={<TipFlip />} /> 
+           {/* <Route path="/finalportfolio/tipflip" element={<TipFlip />} />  */}
            <Route path="/tipflip" element={<TipFlip />} /> 
 
-           <Route path="/finalportfolio/fillerpage" element={<FillerPage />} /> 
+           {/* <Route path="/finalportfolio/fillerpage" element={<FillerPage />} />  */}
            <Route path="/fillerpage" element={<FillerPage />} /> 
 
-           <Route path="/finalportfolio/blender" element={<Blender />} /> 
+           {/* <Route path="/finalportfolio/blender" element={<Blender />} />  */}
            <Route path="/blender" element={<Blender />} /> 
 
-           <Route path="/finalportfolio/slingshot" element={<Slingshot />} /> 
+           {/* <Route path="/finalportfolio/slingshot" element={<Slingshot />} />  */}
            <Route path="/slingshot" element={<Slingshot />} /> 
 
 
@@ -99,7 +98,6 @@ function App() {
 
          </Routes>
        </div> 
-       </BrowserRouter>
     
     </div>
     
