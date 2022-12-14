@@ -16,7 +16,14 @@ function ProjectCards(props) {
         <Card.Text style={{ textAlign: "justify", color: "black" }}>
           {props.description}
         </Card.Text>
-      
+        <br>
+        </br>
+        <Card.Text style={{ textAlign: "justify", color: "black" }}>
+         
+
+        {props.tools}
+
+        </Card.Text>
       </Card.Body>
       </a>
     </Card>

@@ -1,15 +1,15 @@
 import React from "react";
-import Card from "react-bootstrap/Card";
-import Button from "react-bootstrap/Button";
+import Description from "../../intro/description";
 
 function Slingshot() {
   return (
     <div>
-    <h1><b><strong>Slingshot</strong></b></h1>
+    <h5><b><strong><Description description="Slingshot"></Description></strong></b></h5>
+
 
    <p class="project-p subtitle"><i>A group exercise in designing an interactive interface for an emerging startup</i></p>
     <div class="center-image">
-    <img src="images/slingshot/intro.png" alt="mock up of wireframes on laptop" width="20%" height="70%"></img>
+      <img  className="response-img center"  src="images/slingshot/intro.png" alt="mock up of wireframes on laptop" width="20%" height="70%"></img>
     </div>
 <h3>The Startup</h3>
   
@@ -34,7 +34,7 @@ For this project, we chose to design a mobile interface for <a href="https://www
     <p class="project-p">
 After we finished our rough sketches, we incorporated our sketches (overlapping and separate) with additional features we felt were also relevant to Slingshot’s mission into one set of wireframes with 4 different screens: a “Home” page, a “Bills” page, a “Trends” page, and a “Resources” page.</p>
 <div class="center-image">
-    <img src="images/slingshot/lofi.png" alt="mock up of wireframes on laptop" width="70%" height="70%"></img>
+      <img  className="response-img center"  className="response-img center" src="images/slingshot/lofi.png" alt="mock up of wireframes on laptop" width="70%" height="70%"></img>
     </div>
 
     <h2>Mockups</h2>
@@ -64,7 +64,12 @@ Click on “Emergency Visit, Level 4” under “Physician Services” to see th
     <p class="project-p">For a deeper dive into the directions and results, please view our <a href="https://banalbat666.github.io/iterative/">group page</a>.</p>
     <p class="project-p"></p>
 
-
+    <br>
+   </br>
+   <br></br>
+   <br>
+   </br>
+   <br></br>
 
     </div>
     

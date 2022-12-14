@@ -29,7 +29,7 @@ import TipFlip from "./components/projects/pages/tipflip";
 import FillerPage from "./components/projects/pages/fillerpage";
 import Blender from "./components/projects/pages/blender";
 import Slingshot from "./components/projects/pages/slingshot";
-
+import Play from "./components/projects/pages/play";
 import { Canvas } from "@react-three/fiber";
 import ModelViewer from "./blendermods/modelviewer";
 import { Model } from "./blendermods/Tree2";
@@ -65,7 +65,9 @@ function App() {
          <Route path="/home" element={<LandingPage />} />
 
            <Route path="/intro" element={<Home />} />
-           <Route path="/projects" element={<Projects />} />
+           <Route path="/work" element={<Projects />} />
+           <Route path="/play" element={<Play />} />
+
            <Route path="/about" element={<About />} /> 
            <Route path="/goodreads" element={<GoodReads />} /> 
            <Route path="/tipflip" element={<TipFlip />} /> 

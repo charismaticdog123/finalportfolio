@@ -5,46 +5,29 @@ import { NavLink } from "react-router-dom";
 
 export default function NavigationBar() {
   return (
-    <nav className="nav">
-    <Container className="home-content">
-     <Row>
-       <Col md={3} className="home-header font-link ">
-       <Link to="/home" className="site-title">
-      <img class="site-logo" href="/home" src="images/mango.png" alt="mango" width="30%"    ></img>
+    <div className="nav">
+      <Row>
+      <Col lg={3} className="home-header nav-font ">
+     <ul >
+      <Link to="/">
+     <img class="site-logo" href="/home" src="images/mango.png" alt="mango" width="150%"></img>
       </Link>
-       </Col>
-       <Col md={9} className="home-header font-link ">
+     </ul>
 
-       <ul style={{ justifyContent: 'right', alignItems: 'right' }}>
-        {/* <Link to="/intro">Home</Link>
-        <Link to="/projects">Projects</Link>
-        <Link to="/about">About</Link> */}
-        {/* <a href="#intro">Home</a> */}
-        <a href="/projects"><h4>Projects</h4></a>
-        <br></br>
-        <br></br>
-        <br></br>
+      </Col>
 
-        <a href="/about"><h4>About</h4></a>
+        <Col lg={11} className="nav-font">
 
-      </ul></Col>
+     <ul >
+
+      <div className="nav-font">
+        <Link className="nav-font" to="work">WORK</Link>
+        <Link className="nav-font" to="play">PLAY</Link>
+        <Link className="nav-font" to="about">ABOUT</Link>
+      </div>
+        
+     </ul>
+     </Col>
      </Row>
-   </Container>
-   
-      
-    </nav>
-  )
-}
-
-function CustomLink({ to, children, ...props }) {
-  const resolvedPath = useResolvedPath(to)
-  const isActive = useMatch({ path: resolvedPath.pathname, end: true })
-
-  return (
-    <li className={isActive ? "active" : ""}>
-      <Link to={to} {...props}>
-        {children}
-      </Link>
-    </li>
-  )
-}
+  </div>
+  )}

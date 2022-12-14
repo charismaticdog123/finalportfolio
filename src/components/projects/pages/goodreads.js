@@ -1,13 +1,15 @@
 import React from "react";
-
+import Description from "../../intro/description";
 function GoodReads() {
   return (
     <div>
-    <h1><b><strong>Goodreads Redesign</strong></b></h1>
+    <h5><b><strong><Description description="Goodreads Redesign"></Description></strong></b></h5>
+
+    {/* <h1><b><strong>Goodreads Redesign</strong></b></h1> */}
     <h3>Judging a book by it's cover...</h3>
 
     <div class="center-image">
-    <img src="images/goodreads/gr_mockup.png" alt="mock up of wireframes on laptop" width="70%" height="70%"></img>
+     <img  className="response-img center" src="images/goodreads/gr_mockup.png" alt="mock up of wireframes on laptop" width="70%" height="70%"></img>
     </div>
 
    <p class="project-p">As someone who loves reading, but hates adding books to an endless "To Read" notes in my Notes app, I find Goodreads to be a useful and fun way to keep track of and explore new books.​</p>
@@ -43,7 +45,7 @@ function GoodReads() {
     
   
     <div class="center-image">
-    <img src="images/goodreads/issues.jpeg" alt="annotated issues on screenshot" width="10%" height="10%"></img>
+     <img  className="response-img center" src="images/goodreads/issues.jpeg" alt="annotated issues on screenshot" width="10%" height="10%"></img>
     </div>
     
 
@@ -57,17 +59,17 @@ function GoodReads() {
   <div class="row">
     <div class="col-lg">
     <div class="center-image">
-    <img src="images/goodreads/lowfid.png" alt="low fidelity wireframes" width="70%" height="70%"></img>
+     <img  className="response-img center" src="images/goodreads/lowfid.png" alt="low fidelity wireframes" width="70%" height="70%"></img>
     </div>
     </div>
     <div class="col-lg">
     <div class="center-image">
-    <img src="images/goodreads/lowfid2.png" alt="low fidelity wireframes" width="70%" height="70%"></img>
+     <img  className="response-img center" src="images/goodreads/lowfid2.png" alt="low fidelity wireframes" width="70%" height="70%"></img>
     </div>
     </div>
     <div class="col-lg">
     <div class="center-image">
-    <img src="images/goodreads/lowfid3.png" alt="low fidelity wireframes" width="70%" height="70%"></img>
+     <img  className="response-img center" src="images/goodreads/lowfid3.png" alt="low fidelity wireframes" width="70%" height="70%"></img>
     </div>
     </div>
   </div>
@@ -75,7 +77,7 @@ function GoodReads() {
 
 
     <div class="center-image">
-    <img src="images/goodreads/styleguide.jpeg" alt="style guide" width="70%" height="70%"></img>
+     <img  className="response-img center" src="images/goodreads/styleguide.jpeg" alt="style guide" width="70%" height="70%"></img>
     </div>
 
     <h3>Style Guide</h3>
@@ -90,7 +92,7 @@ function GoodReads() {
     <h3>High Fidelity</h3>
     <p class="project-p">Below is a high-fidelity Figma mockup for the desktop view (annotations across different views below). Information and links were grouped into cards and tiles that worked off of a mental model of a bookshelf. The number of links were reduced in place of buttons, dropdowns, and clickable visuals.</p>
     <div class="center-image">
-    <img src="images/goodreads/hifid.png" alt="low fidelity wireframes" width="70%" height="70%"></img>
+     <img  className="response-img center" src="images/goodreads/hifid.png" alt="low fidelity wireframes" width="70%" height="70%"></img>
     </div>
 
     <h3>Developer's Annotations for Desktop, Tablet, & Mobile</h3>
@@ -103,13 +105,13 @@ function GoodReads() {
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img class="d-block w-100" src="images/goodreads/hf1.png" alt="First slide" />
+       <img  className="response-img center" class="d-block w-100" src="images/goodreads/hf1.png" alt="First slide" />
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="images/goodreads/hf2.png" alt="Second slide" />
+       <img  className="response-img center" class="d-block w-100" src="images/goodreads/hf2.png" alt="Second slide" />
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="images/goodreads/hf3.png" alt="Third slide" />
+       <img  className="response-img center" class="d-block w-100" src="images/goodreads/hf3.png" alt="Third slide" />
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -125,6 +127,12 @@ function GoodReads() {
     <h2>iii. Responsive Redesign</h2>
     <p class="project-p">In the final part of this redesign, I used HTML and CSS to develop a responsive redesign of the profile page, linked <a href="https://charismaticdog123.github.io/goodreadsredesign/">here</a>!</p>
     <p class="project-p">With more time, I would explore how different tabs and interactions would look, as well as iterate on the recent activity's card to be separated by comments, reviews, and ratings to better sort through a user's activity.</p>
+    <br>
+   </br>
+   <br></br>
+     <br>
+   </br>
+   <br></br>
     </div>
     
   );

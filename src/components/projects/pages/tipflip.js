@@ -1,15 +1,15 @@
 import React from "react";
-import Card from "react-bootstrap/Card";
-import Button from "react-bootstrap/Button";
+import Description from "../../intro/description";
 
 function TipFlip() {
   return (
     <div>
-    <h1><b><strong>Tip Flip</strong></b></h1>
+    <h5><b><strong><Description description="Tip Flip"></Description></strong></b></h5>
+
 
    <p class="project-p subtitle"><i>How do users interact with tip flip screens at coffee shops?</i></p>
     <div class="center-image">
-    <img src="images/tipflip/cover.png" alt="mock up of wireframes on laptop" width="70%" height="70%"></img>
+     <img  className="response-img center" src="images/tipflip/cover.png" alt="mock up of wireframes on laptop" width="70%" height="70%"></img>
     </div>
 <h3>What is 15% of a boba drink?</h3>
   
@@ -18,7 +18,7 @@ function TipFlip() {
     <p class="project-p">At some point in my coffee and boba-buying journey, I noticed that many coffee and boba shops had switched out the traditional tipping jar in favor of a new online application on a screen that cashiers flip to customers at the end of their transaction.</p>
     <p class="project-p">Given this shift, I was interested in exploring how users interact with the "tip flip screen" and identify common behaviors, pain points, and experiences through contextual inquiries, creating personas, and storyboarding!</p>
     <div class="center-image">
-    <img src="images/tipflip/annotated.png" alt="mock up of wireframes on laptop" width="70%" height="70%"></img>
+     <img  className="response-img center" src="images/tipflip/annotated.png" alt="mock up of wireframes on laptop" width="70%" height="70%"></img>
     </div>
 
     <h3>What do customers do?</h3>
@@ -74,7 +74,7 @@ function TipFlip() {
     <p class="project-p">The first persona is Assured Adam, a daily coffee drinker used to the traditional tipping jar. He represents new users of the interface and faces the issue of buttons that start at values that might be skewed from the desired tipping value, but is relatively unphased by social pressure.</p>
     <p class="project-p">The second persona is Pressured Pansy, an easily-flustered student on a budget. She represents users that feel pressured or obligated to tip, either a result of proximity to the cashier, the pressure of a line behind her, or the mental math required to calculate different tip options.</p>
     <div class="center-image">
-    <img src="images/tipflip/personas.png" alt="mock up of wireframes on laptop" width="70%" height="70%"></img>
+     <img  className="response-img center" src="images/tipflip/personas.png" alt="mock up of wireframes on laptop" width="70%" height="70%"></img>
     </div>
 
 
@@ -82,7 +82,7 @@ function TipFlip() {
     <p class="project-p">Finally, I created a storyboard for Pressured Pansy's experience, starting from walking into the cafe to leaving with her drink:</p>
     
     <div class="center-image">
-    <img src="images/tipflip/userjourney.png" alt="mock up of wireframes on laptop" width="70%" height="70%"></img>
+     <img  className="response-img center" src="images/tipflip/userjourney.png" alt="mock up of wireframes on laptop" width="70%" height="70%"></img>
     </div>
 
     <h3>Reflection</h3>
@@ -94,6 +94,12 @@ function TipFlip() {
         <li>Conduct more observations at different sites and more interviews with different populations</li>
         <li>Do a comparative behavioral analysis between the traditional tipping jar and tip flip screen</li>
     </ul>
+    <br>
+   </br>
+   <br></br>
+   <br>
+   </br>
+   <br></br>
     </div>
     
   );

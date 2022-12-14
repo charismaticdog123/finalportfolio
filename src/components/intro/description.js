@@ -1,13 +1,11 @@
 import React from "react";
 import Typewriter from "typewriter-effect";
 
-function Description() {
+function Description(props) {
   return (
-    <Typewriter 
+    <Typewriter className="subtitle"
       options={{
-        strings: [
-          "Hallo!"
-        ],
+        strings: props.description,
         autoStart: true,
         delay: 50,
         loop: true,
