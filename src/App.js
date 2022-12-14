@@ -61,7 +61,7 @@ function App() {
     
         <div className="container">
          <Routes>
-         <Route path="/" element={<LandingPage />} />
+         <Route path="/finalportfolio/" element={<LandingPage />} />
          <Route path="/home" element={<LandingPage />} />
 
            <Route path="/intro" element={<Home />} />
