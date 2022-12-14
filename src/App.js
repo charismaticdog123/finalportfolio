@@ -58,12 +58,12 @@ function App() {
       </Canvas> */}
      
       <NavigationBar />
-    
+      <BrowserRouter>
         <div className="container">
          <Routes>
-         <Route path="/finalportfolio" element={<Blender />} />
+         <Route path="/finalportfolio" element={<LandingPage />} />
 
-         <Route path="/" element={<Blender />} />
+         <Route path="/" element={<LandingPage />} />
          <Route path="/finalportfolio/home" element={<LandingPage />} />
          <Route path="/home" element={<LandingPage />} />
 
@@ -99,6 +99,7 @@ function App() {
 
          </Routes>
        </div> 
+       </BrowserRouter>
     
     </div>
     
