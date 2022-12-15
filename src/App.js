@@ -60,7 +60,7 @@ function App() {
       <NavigationBar />
         <div className="container">
          <Routes>
-         <Route path="/finalportfolio" element={<LandingPage />} />
+         {/* <Route path="/finalportfolio" element={<LandingPage />} /> */}
 
          <Route exact path="/" element={<LandingPage />} />
          {/* <Route path="/finalportfolio/home" element={<LandingPage />} /> */}
