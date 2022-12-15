@@ -9,7 +9,7 @@ function ProjectCards(props) {
 
     <Card className="project-card-view">
       {/* <Card.Img variant="top" src={props.imgPath} alt="card-img" width="100%" height="100%"    style={{ justifyContent: 'center', alignItems: 'center' }}/> */}
-      <a component={Link} class="card-block stretched-link " to={props.link}>
+      <a class="card-block stretched-link " href={props.link}>
       <Card.Body >
 
         <Card.Title class="card-title"><strong>{props.title}</strong></Card.Title>
