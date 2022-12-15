@@ -34,7 +34,7 @@ function Home() {
           Hallo, <br></br>
           
 
-        I'm <a className="main-name"> Egg</a>!{" "} <span className="wave" role="img" aria-labelledby="wave">
+        I'm <a className="main-name"> Mango</a>!{" "} <span className="wave" role="img" aria-labelledby="wave">
       <img class="site-logo" src="./images/mango.png" alt="mango" width="100%"    ></img>
                
                </span>

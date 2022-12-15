@@ -16,7 +16,7 @@ function AboutCard() {
     <br></br>
 
           <p style={{ textAlign: "justify", color: "black" }}>
-          I’m <span className="dark-yellow"><b>Egg</b></span>, a designer interested in weaving <span className="dark-yellow"><b>storytelling</b></span>, <span className="dark-yellow"><b>design</b></span>, and <span className="dark-yellow"><b>engineering</b></span> into meaningful interactions and communication. <span className="dark-yellow"><b>I make things because I like hearing stories</b></span>.
+          I’m <span className="dark-yellow"><b>Mango</b></span>, a designer interested in weaving <span className="dark-yellow"><b>storytelling</b></span>, <span className="dark-yellow"><b>design</b></span>, and <span className="dark-yellow"><b>engineering</b></span> into meaningful interactions and communication. <span className="dark-yellow"><b>I make things because I like hearing stories</b></span>.
           <br></br>
           <br></br>
 
