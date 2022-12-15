@@ -9,9 +9,6 @@ function LandingPage() {
     return (
   
       <div>
-        {/* <NavigationBar /> */}
-         
-           {/* <Intro></Intro> */}
            <div id="intro"><Home /></div>
       <div id="projects"><Projects /></div>
       <div id="about"><About /></div>
