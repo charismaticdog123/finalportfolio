@@ -62,7 +62,7 @@ function App() {
          <Routes>
          <Route path="/finalportfolio" element={<LandingPage />} />
 
-         <Route path="/" element={<LandingPage />} />
+         <Route exact path="/" element={<LandingPage />} />
          {/* <Route path="/finalportfolio/home" element={<LandingPage />} /> */}
          <Route path="/home" element={<LandingPage />} />
 
